@@ -67,3 +67,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+- [X] Créer un projet React
+- [X] Créer un projet Git
+- [X] Nettoyer le projet React des fichiers inutiles
+- [] Créer les bon dossier pour correctement ranger le projet
+- [] Installer bootstrap
+- [] Installer le router
+- [] Créer le composant CreateComment.js
+- [] Créer le composant DeleteComment.js
+- [] Créer le composant Home.js
+- [] Créer le composant NotFound.js
+- [] Créer le composant Navigation.js
+- [] Créer le composant App.js
