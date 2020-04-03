@@ -6,12 +6,15 @@ import {
     Route,
 } from 'react-router-dom';
 
+import Navigation from './compoments/Navigation'
+
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 
 function App() {
     return (
         <Router>
+            <Navigation />
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="*" component={NotFound} />
