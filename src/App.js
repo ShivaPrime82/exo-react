@@ -9,6 +9,8 @@ import {
 import Navigation from './compoments/Navigation'
 
 import Home from './pages/Home';
+import CreateComment from './pages/CreateComment';
+import DeleteComment from './pages/DeleteComment';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
             <Navigation />
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route path="/comments/create" component={CreateComment} />
+                <Route path="/comments/delete" component={DeleteComment} />
                 <Route path="*" component={NotFound} />
             </Switch>
         </Router>

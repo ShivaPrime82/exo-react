@@ -73,9 +73,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 - [X] Créer les bon dossier pour correctement ranger le projet
 - [X] Installer bootstrap
 - [X] Installer le router
-- [] Créer le composant CreateComment.js
-- [] Créer le composant DeleteComment.js
+- [X] Créer le composant CreateComment.js
+- [X] Créer le composant DeleteComment.js
 - [X] Créer le composant Home.js
 - [X] Créer le composant NotFound.js
-- [] Créer le composant Navigation.js
+- [X] Créer le composant Navigation.js
 - [X] Créer le composant App.js
