@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <Nav variant="pills" defaultActiveKey="/" className="justify-content-end">
+        <Nav variant="pills" defaultActiveKey="/" className="d-flex justify-content-end">
             <Nav.Item>
                 <Nav.Link as={Link} to="/" eventKey="/">Accueil</Nav.Link>
             </Nav.Item>
