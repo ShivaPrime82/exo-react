@@ -38,16 +38,16 @@ const CreateComment = () => {
 
     return (
         <Container>
-            <Form.Group controlId="comment.idArticle">
-                <Form.Label>Id de l'article</Form.Label>
-                <Form.Control
-                    type="number"
-                    name="idArticle"
-                    onChange={handleChange}
-                    value={idArticle}
-                    placeholder="Id de l'article" />
-            </Form.Group>
             <Form onSubmit={handleSubmit}>
+                <Form.Group controlId="comment.idArticle">
+                    <Form.Label>Id de l'article</Form.Label>
+                    <Form.Control
+                        type="number"
+                        name="idArticle"
+                        onChange={handleChange}
+                        value={idArticle}
+                        placeholder="Id de l'article" />
+                </Form.Group>
                 <Form.Group controlId="comment.content">
                     <Form.Label>Contenu du commentaire</Form.Label>
                     <Form.Control
